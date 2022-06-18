@@ -1,0 +1,55 @@
+1. What is lexical structure?
+2. What is Unicode?
+3. Explain all the keywords present in the JavaScript with examples.
+4. What are shorthand operators, explain with a suitable example?
+5. What is “use Strict” in JavaScript?
+
+
+1-
+Lexical structure is just a set of ECMAScript standards to standardised the language and 
+to define the set of instructions for the language. 
+Ex. Variable name should not start with number . 
+    Variable name should not start with - .
+    Its not necessary to end the line with semicolon but its a good practice do so. 
+
+2-
+Unicode is a special value given to characters  in the form of code . The general syntax is \uXXXX.
+where X are the numbers .
+
+3-
+var,let,CONST,if,else,if else,switch,for ,for each ,while ,do,String,array,type of ,class 
+
+Reserved keywords
+interface
+public
+private 
+protected
+implements
+ENUM
+
+4-
+Shorthand operators are the short form given to the complex assignment operators to make the use case clear.
+Ex.
+Shorthand     Original assignment operators
+x += y ====>>>x= x+y;
+x -= y ====>>>x= x-y;
+
+5-
+It is a new feature in ECMAScript Which is used to instruct the browser to work in strict mode.
+Ex.
+test(10, 20);
+
+function test(a, b) {
+    add = a + b;
+    console.log(a + b);
+}
+
+without use strict it works fine but in another case
+"use strict";
+test(10, 20);
+
+function test(a, b) {
+    add = a + b;
+    console.log(a + b);
+}
+this throws an error
