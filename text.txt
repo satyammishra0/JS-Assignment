@@ -1,0 +1,36 @@
+
+1. Explain the use of JavaScript ( or What you can do using a JavaScript)
+2. What is the difference between client-side and server-side?
+3. What is Nodejs?
+4. Explain Scope in JavaScript
+5. JavaScript is asynchronous or synchronous.
+6. JavaScript is Single-threaded or Multi-threaded.
+7. Explain DOM in your own word.
+
+
+1-
+JavaScript is a scripting language which was made to manipulate and work with web browsers initially.
+But as the JS involved with time now we work with it in various domains such as for software mobile apps 
+and a lot more. Now it can be used for front as well as backend part of web mobile applications. 
+
+2-
+client side is the part with which the client interact while using the application.
+while the server side the backend part which client don't see but help us in building the backend of the application.
+
+3-
+Nodejs is a environment made to run JS in the node panel it is basically just made by taking out the V8 engine and using it to run our JS
+in our system without directly running it into the browser.   
+
+4-
+Scope in JS is a code block until which the that code or that code block is applicable.
+
+5-
+JS is a asynchronous language
+
+6-
+JS is a single thread language which means it uses only call stack to run the program .
+
+
+7-
+DOM or document object model is a web interface which a user see or the browser prepare it whenever it is loaded. 
+It is made so that a programmer can manipulate it with the programs.
