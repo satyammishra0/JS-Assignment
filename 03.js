@@ -1,12 +1,12 @@
 // booleans
 
-let score = 'adad';
+// let score = 'adad';
 
-if (score === 'adad') {
-    console.log(`great score ${score}`);
-} else {
-    console.log('false value executed');
-}
+// if (score === 'adad') {
+//     console.log(`great score ${score}`);
+// } else {
+//     console.log('false value executed');
+// }
 
 // This all are treated as false value
 // undefined
@@ -16,8 +16,8 @@ if (score === 'adad') {
 // ""
 // NaN
 
-console.log(typeof(false.toString()));
-console.log(typeof('🤦‍♂️'));
+// console.log(typeof(false.toString()));
+// console.log(typeof('🤦‍♂️'));
 
 /* 
 null is obejct type and a LANGUAGE KEYWORD
@@ -28,8 +28,8 @@ while the undefined goes deep down and look for that if it has any value isnide 
 
 // symbols
 
-let s1 = Symbol.for('p1');
-let s12 = Symbol.for('p2');
+let s1 = Symbol('p1');
+let s12 = Symbol('p1');
 
 console.log(s1 == s12);
 if (s1 == s12) {
@@ -61,7 +61,7 @@ function getseat(getvalue) {
 }
 
 
-console.log(getseat(crew));
+// console.log(getseat(crew));
 
 // global objects
 
@@ -77,5 +77,5 @@ global object
 for browser is window
 while in node its node */
 
-console.log(this);
-console.log(globalThis);
+// console.log(this);
+// console.log(globalThis);

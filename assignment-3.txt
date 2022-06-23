@@ -1,0 +1,67 @@
+
+1. List all the Escape Sequences characters in JavaScript.
+2. Explain with example length and substring methods in JavaScript
+3. What are padStart and padEnd in JavaScript, explain with an example.
+4. Define Global Object in JavaScript along with the global scope.
+5. List all the names of JavaScript engines present currently. 
+
+
+
+-----------------Solution ---------------------
+1-
+i)-
+var line = "The hottest star is \"SUN\""; 
+console.log(line); // The hottest star is "SUN"
+ii)-
+var line = 'You\'re right it\'s the hottest';
+cosnole.log(line); //You're right it's the hottest
+iii)-
+var need ="You need a \\ backslash";
+console.log(need); //You need \ backslash
+2-
+length is a method to return the length of the string passed in it.
+ex- 
+var value = 'lorem ipsum door sit am';
+console.log(value.length);  //23 
+
+Substring is a function to return the substring between the value which is being passed the return type in substring is STRING.
+It requires two parameter or two value between which we need a substring.
+ex-
+var value = 'lorem ipsum door sit am';
+console.log(value.substring(3, 7));    //EM I
+
+3-
+PadStart is a method which returns the string and requires two parameter the first checks if the length is ok then 
+returns the same string but if the string is not as per the required length it passes the value of the second parameter at the starting
+to complete the string.
+ex-
+var value = '+91 lorem ipsum door sit am';
+console.log(value.padStart(100, 0)); //0000000000000000000000000000000000000000000000000000000000000000000000000+91 lorem ipsum door sit am 
+
+PadEnd is a method which returns the string and requires two parameter the first checks if the length is ok then 
+returns the same string but if the string is not as per the required length it passes the value of the second parameter at the Ending
+to complete the string.
+ex-
+var value = '+91 lorem ipsum door sit am';
+console.log(value.padStart(100, 0)); //+91 lorem ipsum door sit am0000000000000000000000000000000000000000000000000000000000000000000000000
+
+4- 
+Global object in JS is a global properties which are defined globally and it varies according to your environment. 
+for example if we run our code in NODE NODE is the supreme global object while in BROWSER WINODW is a supreme global object. 
+To avoid errors and other issues we should treat global objects as a reserved keywords.
+some other global objects are like
+
+Functions:: isNAN(),parseInt(),eval()
+constructor:: date(),String(),object()
+Constants Like:: undefined, NULL 
+
+5-
+SPIDER MONKEY
+V8
+GRAAL JS
+JAVASCRIPT CORE
+JAVASCRIPT .NET
+CHAKRAN
+CHAKRA
+HERMES
+BESEN  
