@@ -24,7 +24,7 @@ ex-
 var value = 'lorem ipsum door sit am';
 console.log(value.length);  //23 
 
-Substring is a function to return the substring between the value which is being passed the return type in substring is STRING.
+Substring is a method to return the substring between the value which is being passed the return type in substring is STRING.
 It requires two parameter or two value between which we need a substring.
 ex-
 var value = 'lorem ipsum door sit am';

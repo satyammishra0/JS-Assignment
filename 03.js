@@ -16,8 +16,8 @@
 // ""
 // NaN
 
-// console.log(typeof(false.toString()));
-// console.log(typeof('🤦‍♂️'));
+console.log(typeof(false.toString())); //toString function converts the type to string
+console.log(typeof('🤦‍♂️')); //emojis are unicode that's why they are returned as the string 
 
 /* 
 null is obejct type and a LANGUAGE KEYWORD
@@ -71,10 +71,9 @@ function getseat(getvalue) {
 
 // global objects are not reserved keywords while NULL is a reserved keyword
 // BUT to avoid errors we should always use global objectes as the reserved keywords
-
 /* 
 global object
-for browser is window
+for browser is windows
 while in node its node */
 
 // console.log(this);
