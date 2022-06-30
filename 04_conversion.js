@@ -1,24 +1,24 @@
-// // primitive
-// //undefiened,null,string,numbers :: No change
+//  primitive -- basic building blocks or smallest unit in any language 
+// undefiened,null,string,numbers :: Can't be changed
 
 let name = "TesTER";
 
 console.log(name.toLowerCase()); // it returns the new string it has nothing to do with the prior one
 
-// // objects are mutable (can be changed)
+//  objects are mutable (can be changed)
 
 let myObj = { name: "tetsre" };
 console.log(myObj.name = "tester2"); //name will bechnage dto tester2
 
-// // arrays are mutable (can be changed)
+//  arrays are mutable (can be changed)
 
 let score = [30, 98, 678, 718];
 console.log(score); //[30, 98, 678, 718]
 console.log(score[2] = 54); //54
 console.log(score); //[30, 98, 54, 718]
 
-// // objects are called as refrence type
-// // which means refrenece is assigned
+//  objects are called as refrence type
+//  which means refrenece is assigned
 
 
 let NewArray = [3, 4];
@@ -27,10 +27,10 @@ AnotherArray[1] = "tets";
 console.log(NewArray === AnotherArray); //true they are same as values are assigned
 
 let yetArray = Array.from(NewArray); // but this method ensures that the whole copy of array ios passed
-console.log(yetArray === NewArray);
+console.log(yetArray === NewArray); //false
 
-// // type conversions
-// // js get what js wants
+//  type conversions
+//  js get what js wants
 
 console.log(10 + "object"); //10object concatination occurs
 console.log("7" * "4"); //28
@@ -45,7 +45,7 @@ console.log(no + " object"); //NaN object
 Number("3");
 let stocks = 1600.72782;
 
-console.log(stocks.toFixed(2));
+console.log(stocks.toFixed(2)); //1600.73
 
 console.log(Boolean("")); //false 
 console.log(Boolean([99])); // true
@@ -61,7 +61,7 @@ let binarycolorValue = colorValue.toString(2); //Conerts 14 to binary value as p
 console.log(binarycolorValue); // 1110 ==[8+4+2+0]==14
 
 console.log({ 1: "one" }.toString()); //[object Object]
-// //Tostring method can't convert this object into string itselt that's why it returns object object
+// Tostring method can't convert this object into string itselt that's why it returns object object
 
 
 let newdate = new Date(2022, 1, 1);

@@ -8,7 +8,7 @@
 //     console.log('false value executed');
 // }
 
-// This all are treated as false value
+// This all are treated as falsy value
 // undefined
 // null
 // 0

@@ -2,7 +2,7 @@ let dollar = '🤦‍♂️';
 let love = '\u2665';
 
 console.log(dollar.length); //5 coz its a unicode character
-console.log(love.length); //1 treating it as a single character
+console.log(love.length); //1 treating it as a single character coz of \u
 
 let lorem = `+91 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi \n repudiandae ""consequuntur voluptatum laborum
